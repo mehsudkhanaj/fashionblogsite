@@ -15,12 +15,32 @@ import {
 const Recent = () => {
   return (
     <Box>
-      <Grid container>
-        <Grid item md={6} xs={12}>
+      <Grid container rowSpacing={1} columnSpacing={1}>
+        <Grid >
             <Card img={tree}/>
          
         </Grid>
-        <Grid item sx={{ background: 'green' }}>
+        <Grid item xs={6}>
+            <Card img={tree}/>
+          
+        </Grid>
+        <Grid item xs={6}>
+            <Card img={tree}/>
+          
+        </Grid>
+        <Grid item xs={6}>
+            <Card img={tree}/>
+          
+        </Grid>
+        <Grid item xs={6}>
+            <Card img={tree}/>
+          
+        </Grid>
+        <Grid item xs={6}>
+            <Card img={tree}/>
+          
+        </Grid>
+        <Grid item xs={6}>
             <Card img={tree}/>
           
         </Grid>
