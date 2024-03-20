@@ -9,38 +9,38 @@ import {
   Typography,
   Link,
   Grid,
-  CardMedia
+  CardMedia,
 } from '@mui/material'
 
 const Recent = () => {
   return (
     <Box>
-      <Grid container rowSpacing={1} columnSpacing={1}>
+      <Grid container rowSpacing={1} columnSpacing={{xs:1,sm:2,md:1}}>
         <Grid >
             <Card img={tree}/>
          
         </Grid>
-        <Grid item xs={6}>
+        <Grid item md={6} xs={12}>
             <Card img={tree}/>
           
         </Grid>
-        <Grid item xs={6}>
+        <Grid item md={6} xs={12}>
             <Card img={tree}/>
           
         </Grid>
-        <Grid item xs={6}>
+        <Grid item md={6} xs={12}>
             <Card img={tree}/>
           
         </Grid>
-        <Grid item xs={6}>
+        <Grid item md={6} xs={12}>
             <Card img={tree}/>
           
         </Grid>
-        <Grid item xs={6}>
+        <Grid item md={6} xs={12}>
             <Card img={tree}/>
           
         </Grid>
-        <Grid item xs={6}>
+        <Grid item md={6} xs={12}>
             <Card img={tree}/>
           
         </Grid>
